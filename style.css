@@ -1,4 +1,4 @@
-/* Reset básico e estilos gerais */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0; /* Remove margem padrão do body */
@@ -7,9 +7,6 @@ body {
     color: #333; /* Cor de texto padrão */
     line-height: 1.6; /* Melhora a legibilidade do texto */
 }
-
-/* Removendo a margem do seletor universal para evitar problemas com layout */
-/* Preferimos aplicar margens ou padding específicos onde necessário */
 
 img {
     width: 200px; /* Reduzindo um pouco o tamanho padrão da imagem para melhor visualização em mobile */
