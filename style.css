@@ -57,7 +57,7 @@ p {
 
 .paragrafo {
     padding: 15px;
-    background-color: #00468c;
+    background-color: gray;
     color: white;
     border-radius: 10px;
     margin: 10px auto; /* Centraliza e adiciona margem entre eles */
