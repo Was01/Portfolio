@@ -1,12 +1,15 @@
-
+/* Reset básico e estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0; /* Remove margem padrão do body */
     padding: 20px; /* Adiciona um padding geral para não colar nas bordas */
-    background-color: #f7ede2; /* Cor de fundo principal */
+    background-color: black; /* Cor de fundo principal */
     color: #333; /* Cor de texto padrão */
     line-height: 1.6; /* Melhora a legibilidade do texto */
 }
+
+/* Removendo a margem do seletor universal para evitar problemas com layout */
+/* Preferimos aplicar margens ou padding específicos onde necessário */
 
 img {
     width: 200px; /* Reduzindo um pouco o tamanho padrão da imagem para melhor visualização em mobile */
@@ -89,7 +92,7 @@ a {
     color: white;
     text-decoration: none;
     padding: 12px 20px; /* Aumenta o padding para melhor área de clique */
-    background: #e3b482; /* Cor de fundo do botão */
+    background: black; /* Cor de fundo do botão */
     border-radius: 10px;
     transition: background 0.3s ease; /* Transição suave para o hover */
     display: block; /* Garante que os links se comportem como blocos para o padding/margin */
